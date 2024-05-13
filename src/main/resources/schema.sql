@@ -45,3 +45,12 @@ CREATE TABLE order_details
    item_id INTEGER,
    quantity INTEGER
 );
+
+CREATE TABLE account
+(
+   id SERIAL PRIMARY KEY,
+   name TEXT,
+   age  INTEGER,
+   birthday DATE,
+   password TEXT
+);
